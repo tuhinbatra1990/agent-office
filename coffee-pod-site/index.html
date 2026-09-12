@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kōvo — Coffee Pods, Reimagined</title>
+<meta name="description" content="Kōvo coffee pods: single-origin, home-compostable, compatible with every major machine. Subscribe and save.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="noise-overlay" aria-hidden="true"></div>
+
+<header class="site-header" id="header">
+  <div class="container header-inner">
+    <a href="#top" class="logo">
+      <span class="logo-mark">
+        <svg viewBox="0 0 40 40" width="28" height="28" aria-hidden="true">
+          <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2.5"/>
+          <path d="M20 9c-3 4-5 6-5 10a5 5 0 0 0 10 0c0-4-2-6-5-10z" fill="currentColor"/>
+        </svg>
+      </span>
+      Kōvo
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#flavors">Flavors</a>
+      <a href="#how">How it works</a>
+      <a href="#plans">Plans</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="header-actions">
+      <a href="#plans" class="btn btn-ghost">Log in</a>
+      <a href="#plans" class="btn btn-primary">Shop pods</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#flavors">Flavors</a>
+    <a href="#how">How it works</a>
+    <a href="#plans">Plans</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#faq">FAQ</a>
+    <a href="#plans" class="btn btn-primary">Shop pods</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Single-origin · Home-compostable · Every machine</p>
+        <h1>Espresso-grade coffee, <span class="italic">one button away.</span></h1>
+        <p class="hero-sub">Kōvo pods are packed within 48 hours of roasting and fit any pod machine — no plastic, no stale beans, no compromise.</p>
+        <div class="hero-cta">
+          <a href="#plans" class="btn btn-primary btn-lg">Build my box <span aria-hidden="true">→</span></a>
+          <a href="#how" class="btn btn-outline btn-lg">See how it works</a>
+        </div>
+        <div class="hero-trust">
+          <div class="stars" aria-label="Rated 4.9 out of 5 stars">★★★★★</div>
+          <span>4.9/5 from 12,400+ coffee drinkers</span>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="pod-orbit">
+          <div class="pod pod-1"></div>
+          <div class="pod pod-2"></div>
+          <div class="pod pod-3"></div>
+          <div class="steam s1"></div>
+          <div class="steam s2"></div>
+          <div class="cup"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOGO / STAT STRIP -->
+  <section class="strip">
+    <div class="container strip-inner">
+      <div class="strip-item"><strong>2.3M+</strong><span>pods brewed</span></div>
+      <div class="strip-item"><strong>100%</strong><span>home-compostable</span></div>
+      <div class="strip-item"><strong>48 hrs</strong><span>roast to doorstep</span></div>
+      <div class="strip-item"><strong>All</strong><span>major machines</span></div>
+    </div>
+  </section>
+
+  <!-- FLAVORS -->
+  <section class="section" id="flavors">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">The lineup</p>
+        <h2>Four roasts. Zero filler.</h2>
+        <p class="section-sub">Each pod is dosed like a barista shot — no robusta fillers, no stale pre-ground fines.</p>
+      </div>
+      <div class="flavor-grid">
+
+        <article class="flavor-card">
+          <div class="flavor-art fa-midnight"></div>
+          <h3>Midnight Roast</h3>
+          <p class="flavor-tags">Dark · Bold · Chocolate</p>
+          <p>A deep, syrupy espresso built for oat milk lattes and 6am deadlines.</p>
+          <span class="price">$0.62 / pod</span>
+        </article>
+
+        <article class="flavor-card">
+          <div class="flavor-art fa-amber"></div>
+          <h3>Amber Medium</h3>
+          <p class="flavor-tags">Balanced · Caramel · Smooth</p>
+          <p>Our best seller — a crowd-pleasing medium roast with a honeyed finish.</p>
+          <span class="price">$0.58 / pod</span>
+        </article>
+
+        <article class="flavor-card">
+          <div class="flavor-art fa-highland"></div>
+          <h3>Highland Light</h3>
+          <p class="flavor-tags">Bright · Citrus · Floral</p>
+          <p>Ethiopian single-origin, washed process. Tastes like a specialty pour-over.</p>
+          <span class="price">$0.66 / pod</span>
+        </article>
+
+        <article class="flavor-card">
+          <div class="flavor-art fa-decaf"></div>
+          <h3>Slow Decaf</h3>
+          <p class="flavor-tags">Swiss water · Nutty · Mellow</p>
+          <p>Chemical-free decaffeination that still tastes like actual coffee.</p>
+          <span class="price">$0.62 / pod</span>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section section-alt" id="how">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">How it works</p>
+        <h2>From roastery to your mug in three steps.</h2>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">01</div>
+          <h3>Pick your roasts</h3>
+          <p>Mix and match any of our four blends, or let us curate a taster box for your first order.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <h3>Choose your rhythm</h3>
+          <p>Weekly, biweekly, or monthly delivery. Pause, skip, or swap flavors anytime from your account.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <h3>Pop, brew, compost</h3>
+          <p>Every pod fits standard machines and breaks down at home in under 90 days — no aluminum landfill.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANS / PRICING -->
+  <section class="section" id="plans">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Simple pricing</p>
+        <h2>Subscribe and save up to 20%.</h2>
+        <p class="section-sub">Cancel or pause anytime. Free shipping on every subscription order.</p>
+      </div>
+
+      <div class="pricing-grid">
+
+        <div class="price-card">
+          <h3>Taster</h3>
+          <p class="price-desc">Try all four roasts</p>
+          <div class="price-tag"><span class="amount">$18</span><span class="period">/ 24 pods</span></div>
+          <ul class="price-list">
+            <li>24 pods, one-time order</li>
+            <li>All 4 flavors included</li>
+            <li>Free shipping</li>
+          </ul>
+          <a href="#" class="btn btn-outline btn-block">Order taster box</a>
+        </div>
+
+        <div class="price-card featured">
+          <span class="badge">Most popular</span>
+          <h3>Subscriber</h3>
+          <p class="price-desc">Your box, on repeat</p>
+          <div class="price-tag"><span class="amount">$34</span><span class="period">/ 60 pods · monthly</span></div>
+          <ul class="price-list">
+            <li>60 pods every month</li>
+            <li>Pick your flavor mix</li>
+            <li>Skip, pause, or cancel anytime</li>
+            <li>Free shipping + 15% off</li>
+          </ul>
+          <a href="#" class="btn btn-primary btn-block">Start subscription</a>
+        </div>
+
+        <div class="price-card">
+          <h3>Office</h3>
+          <p class="price-desc">For the whole team</p>
+          <div class="price-tag"><span class="amount">$120</span><span class="period">/ 240 pods · monthly</span></div>
+          <ul class="price-list">
+            <li>240 pods every month</li>
+            <li>Custom flavor blend</li>
+            <li>Dedicated account support</li>
+            <li>Free shipping + 20% off</li>
+          </ul>
+          <a href="#" class="btn btn-outline btn-block">Set up office plan</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section section-alt" id="reviews">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Reviews</p>
+        <h2>Coffee people notice the difference.</h2>
+      </div>
+      <div class="review-grid">
+        <figure class="review-card">
+          <div class="stars">★★★★★</div>
+          <blockquote>"I've cancelled two other pod subscriptions for this one. Amber Medium tastes like an actual café shot, not dishwater."</blockquote>
+          <figcaption>— Priya N., subscriber since 2024</figcaption>
+        </figure>
+        <figure class="review-card">
+          <div class="stars">★★★★★</div>
+          <blockquote>"The compostable pods actually compost. I tested it. My partner thinks I'm insane. Worth it."</blockquote>
+          <figcaption>— Marcus T., Office plan</figcaption>
+        </figure>
+        <figure class="review-card">
+          <div class="stars">★★★★★</div>
+          <blockquote>"Highland Light converted me from pour-over snob to pod convert. Didn't think that was possible."</blockquote>
+          <figcaption>— Elena R., subscriber since 2023</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container container-narrow">
+      <div class="section-head">
+        <p class="eyebrow">FAQ</p>
+        <h2>Good to know.</h2>
+      </div>
+      <div class="faq-list">
+
+        <details class="faq-item" open>
+          <summary>Do Kōvo pods fit my machine?</summary>
+          <p>Yes — our pods are designed to fit all standard single-serve pod machines. If yours takes a standard round pod, it takes ours.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Are the pods really compostable?</summary>
+          <p>Every pod is made from plant-fiber material certified for home composting. Toss the whole pod, grounds and all, into your compost bin — no disassembly needed.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Can I change my flavor mix each month?</summary>
+          <p>Absolutely. Log into your account before your renewal date to adjust your roast mix, delivery frequency, or shipping address.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>What if I want to cancel?</summary>
+          <p>Cancel or pause your subscription anytime, no fees, no phone calls — it takes about 10 seconds in your account settings.</p>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container cta-inner">
+      <h2>Your first box ships free.</h2>
+      <p>Try all four roasts for $18 — no subscription required.</p>
+      <a href="#plans" class="btn btn-primary btn-lg">Order your taster box</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="#top" class="logo">
+        <span class="logo-mark">
+          <svg viewBox="0 0 40 40" width="24" height="24" aria-hidden="true">
+            <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2.5"/>
+            <path d="M20 9c-3 4-5 6-5 10a5 5 0 0 0 10 0c0-4-2-6-5-10z" fill="currentColor"/>
+          </svg>
+        </span>
+        Kōvo
+      </a>
+      <p>Small-batch coffee pods, roasted to order.</p>
+    </div>
+    <div class="footer-cols">
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <a href="#flavors">Flavors</a>
+        <a href="#plans">Plans</a>
+        <a href="#plans">Gift cards</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#how">How it works</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <a href="#">Contact us</a>
+        <a href="#">Shipping</a>
+        <a href="#">Sustainability</a>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© <span id="year"></span> Kōvo Coffee Co. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
